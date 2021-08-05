@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 20px 0;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigation ul {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.navigation ul li {
+    list-style: none;
+}
+
+.navigation .logo a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.navigation .logo {
+    padding: 10px 10px;
+    border: 3px solid white;
+    border-radius: 20px;
+    font-size: 25px;
+    margin: 0 30px;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation .nav-right {
+    width: 50%;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.navigation ul li a:hover,
+.navigation ul li a.active {
+    color: gray;
+}
+
+.navigation input {
+    height: 3vh;
+    width: 15vw;
+    padding: 4px 10px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+.first-section {
+    height: 100vh;
+}
+
+.box-main {
+    height: 70vh;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+}
+
+.first-half {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-half {
+    width: 40%;
+    text-align: center;
+}
+
+.second-half img {
+    width: 70%;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.big-text {
+    font-size: 33px;
+    margin: 8px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.small-text {
+    font-size: 20px;
+    margin: 0 0 15px 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.btn {
+    padding: 7px 16px;
+    font-size: 18px;
+    margin: 0 5px;
+    border: 3px solid white;
+    color: white;
+    background: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 7px 10px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+.second-section {
+    display: flex;
+    max-width: 75%;
+    margin: auto;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.paragraph {
+    padding: 20px 60px;
+}
+
+.tag {
+    font-size: 30px;
+}
+
+.sub-tag {
+    font-size: 16px;
+}
+
+.thumbnail img {
+    height: 210px;
+    width: 210px;
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+.section-left {
+    flex-direction: row-reverse;
+    margin-right: 135px;
+}
+
+.contact {
+    height: 100%
+}
+
+.contact .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .form input {
+    width: 45vh;
+    padding: 9px;
+    font-size: 16px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    margin: 10px 0;
+}
+
+.contact .form .btn-contact {
+    margin: 15px 0;
+}
+
+.contact p {
+    color: white;
+    margin: 15px 0;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.contact .form textarea {
+    width: 350px;
+    border: 3px solid white;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+footer .foot {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.burger {
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    top: 15px;
+    display: none;
+}
+
+.line {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 5px 3px;
+}
